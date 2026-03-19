@@ -1,16 +1,60 @@
-# my_first_app
+# Flutter Playground
 
-A new Flutter project.
+A Flutter demo application for experimenting with widgets, layouts, and mobile development patterns. Built as a learning sandbox for exploring Flutter's core concepts.
+
+## Features
+
+- Material Design UI components
+- Image asset loading and display
+- Android and iOS platform support
+- Standard Flutter project structure with test scaffolding
+
+## Tech Stack
+
+- **Framework:** Flutter (Dart SDK >=2.16.2 <3.0.0)
+- **Design:** Material Design (uses-material-design: true)
+- **Icons:** Cupertino Icons
+- **Platform:** Android (Kotlin) / iOS (Swift)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- [Flutter SDK](https://flutter.dev/docs/get-started/install) (2.16.2+)
+- Android Studio or Xcode for platform-specific builds
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Installation
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+# Clone the repository
+git clone https://github.com/mhmalvi/flutter-playground.git
+cd flutter-playground
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run
+```
+
+### Running Tests
+
+```bash
+flutter test
+```
+
+## Project Structure
+
+```
+lib/
+└── main.dart               # Application entry point
+images/                     # Image assets
+android/                    # Android platform configuration
+ios/                        # iOS platform configuration
+test/
+└── widget_test.dart        # Widget tests
+```
+
+## License
+
+MIT
